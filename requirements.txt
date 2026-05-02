@@ -1,0 +1,6 @@
+opencv-contrib-python==4.8.1.78
+mediapipe==0.10.9
+customtkinter==5.2.2
+requests==2.31.0
+numpy==1.26.4
+Pillow==10.2.0
