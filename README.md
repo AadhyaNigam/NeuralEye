@@ -24,7 +24,7 @@ NeuralEye/
 ├── dataset/                # (Auto-generated) Stores grayscale face samples
 ├── trainer/                # (Auto-generated) Stores the trained LBPH model
 ├── main.py                 # The centralized CustomTkinter Command Dashboard
-├── integrated_counter.py   # Identity-aware entry/exit counter
+├── counter.py              # Identity-aware entry/exit counter
 ├── accident_detect.py      # Pose-estimation fall detector
 ├── intruder.py             # ROI-based digital fence monitor
 ├── requirements.txt        # Python dependencies
