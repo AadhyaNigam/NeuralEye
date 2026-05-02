@@ -34,36 +34,35 @@ NeuralEye/
 ## ⚙️ Installation & Setup
 1. Clone the repository:
 
-Bash
-git clone [https://github.com/AadhyaNigam/NeuralEye.git](https://github.com/AadhyaNigam/NeuralEye.git)
-cd NeuralEye
+* Bash
+* git clone [https://github.com/AadhyaNigam/NeuralEye.git](https://github.com/AadhyaNigam/NeuralEye.git)
+* cd NeuralEye
 
 2. Install dependencies:
 
-Bash
-pip install -r requirements.txt
+* Bash
+* pip install -r requirements.txt
 
 3. Configure Firebase (IoT):
-Create a Firebase Realtime Database.
-Set Read/Write rules to true (for local testing).
-Replace the FIREBASE_URL placeholder in the Python scripts with your actual Firebase URL.
+
+* Create a Firebase Realtime Database.
+* Set Read/Write rules to true (for local testing).
+* Replace the FIREBASE_URL placeholder in the Python scripts with your actual Firebase URL.
 
 4. Run the Dashboard:
 
-Bash
-python main.py
+* Bash
+* python main.py
 
 
 ## 💻 Usage Flow
-Register: Click "Register New User" to capture 50 face samples. (Data is synced to Firebase Master List).
 
-Train: Click "Train AI Model" to generate the trainer.yml file.
+* Register: Click "Register New User" to capture 50 face samples. (Data is synced to Firebase Master List).
+* Train: Click "Train AI Model" to generate the trainer.yml file.
+* Launch Security: Use the dashboard to launch the live face monitor, customer counter, or accident detection modules.
+* Press q to safely close any active camera window and return to the dashboard.
 
-Launch Security: Use the dashboard to launch the live face monitor, customer counter, or accident detection modules.
-
-Press q to safely close any active camera window and return to the dashboard.
-
-
+---
 
 ## 📜 License
 
